@@ -12,8 +12,8 @@ public class SwordTest {
     @Before
     public void before(){
         sword = new Sword( 50);
-
     }
+
     @Test
     public void hasStrength(){
         assertEquals( 50, sword.getStrength());

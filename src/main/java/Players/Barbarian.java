@@ -17,7 +17,7 @@ public class Barbarian extends Player implements IWeaponable {
         return weapons.size();
     }
 
-   public void addSword(Sword sword) {
+    public void addSword(Sword sword) {
         weapons.add(sword);
     }
 

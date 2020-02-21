@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4672b0-1463-4e79-9ca1-c8bf0d1ec73e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Weapons/Wand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/specialPowers/IWeaponable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/specialPowers/IWeaponable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThroneRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThroneRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SwordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SwordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +50,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.DwarfTest.testCanAttack">
+  <component name="RunManager" selected="JUnit.WandTest">
+    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DwarfTest.testCanAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DwarfTest" />
       <option name="METHOD_NAME" value="testCanAttack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThroneRoomTest.checkCanAddDwarfToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThroneRoomTest" />
-      <option name="METHOD_NAME" value="checkCanAddDwarfToRoom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThroneRoomTest.checkCanAddKnightToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThroneRoomTest" />
-      <option name="METHOD_NAME" value="checkCanAddKnightToRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,13 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WandTest" />
         <item itemvalue="JUnit.DwarfTest.testCanAttack" />
+        <item itemvalue="JUnit.DwarfTest" />
         <item itemvalue="JUnit.ThroneRoomTest.checkDwarfDoesNotChallengeEnemyWhenRoomIsEmpty" />
         <item itemvalue="JUnit.ThroneRoomTest.checkDwarfChallengesEnemyWhenEnteringRoom" />
-        <item itemvalue="JUnit.ThroneRoomTest.checkCanAddDwarfToRoom" />
-        <item itemvalue="JUnit.ThroneRoomTest.checkCanAddKnightToRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -118,22 +123,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1582214399021">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1582299492165">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582214399021" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1582214399020">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582299492165" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1582299492163">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582214399020" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1582214399020">
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582299492163" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1582299492163">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582214399020" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1582214399021">
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582299492163" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1582299492164">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582214399021" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582299492164" />
     <state x="100" y="123" width="1480" height="827" key="dock-window-1" timestamp="1582211806693">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
