@@ -4,6 +4,9 @@ import Weapons.Bow;
 import Weapons.Sword;
 import Weapons.Wand;
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class WizardTest {
     Wizard wizard;
@@ -21,6 +24,20 @@ public class WizardTest {
         wand = new Wand(80);
 
     }
+
+    @Test
+    public void hasName(){
+        assertEquals("Paddy", wizard.getName());
+    }
+    @Test
+    public void hasHealingPoints(){
+        assertEquals(30, wizard.getHealingPoints());
+    }
+    @Test
+    public void testWeaponsArrayBeginsEmpty(){
+      assertEquals(0, wizard.weaponCount());
+    }
+
 
 
 }
