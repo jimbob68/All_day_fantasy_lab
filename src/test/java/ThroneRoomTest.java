@@ -20,7 +20,7 @@ public class ThroneRoomTest {
     @Before
     public void before(){
         throneRoom = new ThroneRoom("Throne Room");
-        orc = new Orc("Orc", 30);
+        orc = new Orc("Orc", 30, 50);
         barbarian = new Barbarian("Barbarian", 50);
         knight = new Knight("Knight", 80);
         dwarf = new Dwarf ("Dwarf", 60);

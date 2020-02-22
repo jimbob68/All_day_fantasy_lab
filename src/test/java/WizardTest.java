@@ -22,7 +22,6 @@ public class WizardTest {
         axe = new Axe(30);
         bow = new Bow(50);
         wand = new Wand(80);
-
     }
 
     @Test
@@ -36,6 +35,18 @@ public class WizardTest {
     @Test
     public void testWeaponsArrayBeginsEmpty(){
       assertEquals(0, wizard.weaponCount());
+    }
+
+    @Test
+    public void testCanAddWand(){
+        wizard.canAddWand(wand);
+        assertEquals(1, wizard.weaponCount());
+    }
+
+    @Test
+    public void testCanAddBow(){
+        wizard.canAddBow(bow);
+      assertEquals(1, wizard.weaponCount());
     }
 
 

@@ -13,6 +13,7 @@ public class Barbarian extends Player implements IWeaponable {
         super(name, healingPoints);
         this.weapons = new ArrayList<IWeaponable>();
     }
+
     public int weaponCount(){
         return weapons.size();
     }

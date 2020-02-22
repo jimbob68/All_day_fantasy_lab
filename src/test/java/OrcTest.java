@@ -14,7 +14,7 @@ public class OrcTest {
 
     @Before
     public void before(){
-        orc = new Orc("OrcName", 30);
+        orc = new Orc("OrcName", 30, 50);
     }
     @Test
     public void hasName(){
@@ -24,6 +24,11 @@ public class OrcTest {
     @Test
     public void hasStrength(){
         assertEquals(30, orc.getStrength());
+    }
+
+    @Test
+    public void hasTreasure(){
+       assertEquals(50, orc.getTreasure());
     }
 
 }
