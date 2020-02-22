@@ -10,8 +10,8 @@ import java.util.Random;
 
 public class Dwarf extends Player {
     ArrayList<IWeaponable> weapons;
-    public Dwarf(String name, int healingPoints) {
-        super(name, healingPoints);
+    public Dwarf(String name, int healingPoints, int treasure, int purse) {
+        super(name, healingPoints, treasure, purse);
         this.weapons = new ArrayList<IWeaponable>();
     }
 

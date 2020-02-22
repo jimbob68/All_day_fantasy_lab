@@ -19,7 +19,7 @@ public class DwarfTest {
 
     @Before
         public void before(){
-        dwarf = new Dwarf("Stephen", 50);
+        dwarf = new Dwarf("Stephen", 50, 20, 40);
         sword = new Sword(30);
         axe = new Axe(20);
         bow = new Bow(40);

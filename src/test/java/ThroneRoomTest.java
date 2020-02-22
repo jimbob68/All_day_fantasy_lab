@@ -3,6 +3,7 @@ import Castle.ThroneRoom;
 import Players.Barbarian;
 import Players.Dwarf;
 import Players.Knight;
+import Players.Wizard;
 import enemies.Orc;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,14 +17,16 @@ public class ThroneRoomTest {
     Barbarian barbarian;
     Knight knight;
     Dwarf dwarf;
+    Wizard wizard;
 
     @Before
     public void before(){
         throneRoom = new ThroneRoom("Throne Room");
         orc = new Orc("Orc", 30, 50);
-        barbarian = new Barbarian("Barbarian", 50);
-        knight = new Knight("Knight", 80);
-        dwarf = new Dwarf ("Dwarf", 60);
+        barbarian = new Barbarian("Barbarian", 50, 20, 30);
+        knight = new Knight("Knight", 80, 20,40);
+        dwarf = new Dwarf ("Dwarf", 60, 10, 50);
+        wizard = new Wizard("Gandalf", 80, 60, 80);
     }
 
     @Test

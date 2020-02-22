@@ -17,7 +17,7 @@ public class WizardTest {
 
     @Before
     public void before(){
-        wizard = new Wizard("Paddy", 30);
+        wizard = new Wizard("Gandalf", 30, 50,80);
         sword = new Sword(40);
         axe = new Axe(30);
         bow = new Bow(50);
@@ -26,7 +26,7 @@ public class WizardTest {
 
     @Test
     public void hasName(){
-        assertEquals("Paddy", wizard.getName());
+        assertEquals("Gandalf", wizard.getName());
     }
     @Test
     public void hasHealingPoints(){

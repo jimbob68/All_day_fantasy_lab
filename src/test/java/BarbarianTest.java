@@ -17,7 +17,7 @@ public class BarbarianTest {
 
     @Before
     public void before(){
-        barbarian = new Barbarian("Sigurd", 60);
+        barbarian = new Barbarian("Sigurd", 60, 30, 50);
         sword = new Sword(30);
         axe = new Axe (20);
         bow = new Bow(40);
@@ -31,6 +31,15 @@ public class BarbarianTest {
     @Test
     public void hasHealingPoints(){
         assertEquals(60, barbarian.getHealingPoints());
+    }
+    @Test
+    public void testCanGetTreasure(){
+        assertEquals(30, barbarian.canGetTreasure());
+    }
+
+    @Test
+    public void testCanGetPurseTotal(){
+        assertEquals(50, barbarian.canGetPurseTotal());
     }
 
     @Test

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 
 public class Barbarian extends Player implements IWeaponable {
     ArrayList<IWeaponable> weapons;
-    public Barbarian(String name, int healingPoints){
-        super(name, healingPoints);
+    public Barbarian(String name, int healingPoints, int treasure, int purse){
+        super(name, healingPoints, treasure, purse);
         this.weapons = new ArrayList<IWeaponable>();
     }
 

@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class Knight extends Player {
 
     ArrayList<IWeaponable> weapons;
-    public Knight(String name, int healingPoints){
-        super(name, healingPoints);
+    public Knight(String name, int healingPoints, int treasure, int purse){
+        super(name, healingPoints, treasure, purse);
         this.weapons = new ArrayList<IWeaponable>();
     }
 
