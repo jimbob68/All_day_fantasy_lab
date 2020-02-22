@@ -4,10 +4,10 @@ public abstract class MythicalBeast {
 
     String name;
     int strength;
-    String restorativePower;
+    int restorativePower;
     int treasure;
 
-    public MythicalBeast(String name, int strength, String restorativePower, int treasure){
+    public MythicalBeast(String name, int strength, int restorativePower, int treasure){
         this.name = name;
         this.strength = strength;
         this.restorativePower = restorativePower;
@@ -22,7 +22,7 @@ public abstract class MythicalBeast {
         return this.strength;
     }
 
-    public String getRestorativePower() {
+    public int getRestorativePower() {
         return this.restorativePower;
     }
 

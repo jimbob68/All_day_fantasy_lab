@@ -22,10 +22,10 @@ public class ThroneRoomTest {
     @Before
     public void before(){
         throneRoom = new ThroneRoom("Throne Room");
-        orc = new Orc("Orc", 30, 50);
-        barbarian = new Barbarian("Barbarian", 50, 20, 30);
-        knight = new Knight("Knight", 80, 20,40);
-        dwarf = new Dwarf ("Dwarf", 60, 10, 50);
+        orc = new Orc("Pork", 30, 50);
+        barbarian = new Barbarian("Steve", 50, 20, 30);
+        knight = new Knight("Chris", 80, 20,40);
+        dwarf = new Dwarf ("Gary", 60, 10, 50);
         wizard = new Wizard("Gandalf", 80, 60, 80);
     }
 
@@ -74,6 +74,13 @@ public class ThroneRoomTest {
         throneRoom.addDwarf(dwarf);
         assertEquals(1, throneRoom.numberOfPlayers());
     }
+//    @Test
+//    public void checkCanAddBasiliskToRoomWhenPlayerAndEnemyPresent(){
+//        throneRoom.addBasilisk(basilisk);
+//        throneRoom.addDwarf(dwarf);
+//        throneRoom.addOrc(orc);
+//        assertEquals(1, throneRoom.);
+//    }
 
     @Test
     public void checkDwarfChallengesEnemyWhenEnteringRoomWithEnemy(){

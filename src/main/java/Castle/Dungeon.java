@@ -6,6 +6,10 @@ public class Dungeon extends Room {
         super(name);
     }
 
+    public int numberOfEnemies(){
+        return this.enemies.size();
+    }
+
 
 
 }
