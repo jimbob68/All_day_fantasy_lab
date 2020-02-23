@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d4672b0-1463-4e79-9ca1-c8bf0d1ec73e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AttackStrength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DefenceStrength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Castle/ThroneRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Castle/ThroneRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/specialPowers/IWeaponable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/specialPowers/IWeaponable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThroneRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThroneRoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Castle/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Castle/Dungeon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Castle/ThroneRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Castle/ThroneRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Players/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Barbarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Players/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Players/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Players/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThroneRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ThroneRoomTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WizardTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +43,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.DwarfTest.testCanGetAttackStrengthValue">
+  <component name="RunManager" selected="JUnit.DwarfTest.testCanGetDefenceStrengthValue">
     <configuration name="DwarfTest.testCanGetAttackStrength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,11 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RampartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DwarfTest.testCanGetDefenceStrengthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RampartTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
+      <option name="METHOD_NAME" value="testCanGetDefenceStrengthValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DwarfTest.testCanGetDefenceStrengthValue" />
         <item itemvalue="JUnit.DwarfTest.testCanGetAttackStrengthValue" />
         <item itemvalue="JUnit.DwarfTest.testCanGetAttackStrengthVALUE" />
         <item itemvalue="JUnit.DwarfTest.testCanGetAttackStrength" />
         <item itemvalue="JUnit.ThroneRoomTest" />
-        <item itemvalue="JUnit.RampartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,22 +129,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="585" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.1027@0.23.1680.1027" timestamp="1582406366891" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1582496610405">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1582496966790">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582496610405" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1582496610404">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582496966790" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1582496966788">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582496610404" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1582496610403">
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582496966788" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1582496966787">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582496610403" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1582496610405">
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582496966787" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1582496966789">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582496610405" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582496966789" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1582495915877">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

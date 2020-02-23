@@ -60,6 +60,9 @@ public class DwarfTest {
     @Test
     public void testCanGetAttackStrengthValue(){
         assertEquals(30, dwarf.canGetAttackStrengthValue());
-
+    }
+    @Test
+    public void testCanGetDefenceStrengthValue(){
+       assertEquals(20, dwarf.canGetDefenceStrengthValue());
     }
 }

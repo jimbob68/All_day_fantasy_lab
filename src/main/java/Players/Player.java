@@ -37,8 +37,8 @@ public abstract class Player {
     public int canGetAttackStrengthValue(){
         return AttackStrength;
     }
-    public int canGetDefenceStrength(){
-        return this.DefenceStrength;
+    public int canGetDefenceStrengthValue(){
+        return DefenceStrength;
     }
 
 
