@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Wizard extends Player implements IWeaponable {
     ArrayList<IWeaponable> weapons;
 
-    public Wizard(String name, int healingPoints, int treasure, int purse){
-       super(name, healingPoints, treasure, purse);
+    public Wizard(String name, int healingPoints, int treasure, int purse, int AttackStrength, int DefenceStrength){
+       super(name, healingPoints, treasure, purse, AttackStrength, DefenceStrength);
        this.weapons = new ArrayList<IWeaponable>();
     }
 

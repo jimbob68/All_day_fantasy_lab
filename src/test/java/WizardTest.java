@@ -17,7 +17,7 @@ public class WizardTest {
 
     @Before
     public void before(){
-        wizard = new Wizard("Paddy", 30, 50,80);
+        wizard = new Wizard("Paddy", 30, 50,80, 10, 20);
         sword = new Sword(40);
         axe = new Axe(30);
         bow = new Bow(50);

@@ -19,7 +19,7 @@ public class DwarfTest {
 
     @Before
         public void before(){
-        dwarf = new Dwarf("Maximus", 50, 20, 40);
+        dwarf = new Dwarf("Maximus", 50, 20, 40, 30, 20);
         sword = new Sword(30);
         axe = new Axe(20);
         bow = new Bow(40);
@@ -57,8 +57,9 @@ public class DwarfTest {
         assertEquals(1, dwarf.weaponCount());
     }
 
-//    @Test
-//    public void testCanAttack(){
-//        assertEquals(assertArrayEquals(randomNumber(), dwarf.attack());
-//    }
+    @Test
+    public void testCanGetAttackStrengthValue(){
+        assertEquals(30, dwarf.canGetAttackStrengthValue());
+
+    }
 }

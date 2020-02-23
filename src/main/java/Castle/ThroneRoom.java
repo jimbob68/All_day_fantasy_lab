@@ -6,7 +6,7 @@ import Players.Knight;
 import enemies.Orc;
 import mythicalBeasts.Basilisk;
 
-public class ThroneRoom extends Room{
+public class ThroneRoom extends Room {
 
     public ThroneRoom(String name) {
         super(name);
@@ -27,13 +27,12 @@ public class ThroneRoom extends Room{
     }
 
 
-
     public void addBarbarian(Barbarian barbarian) {
         players.add(barbarian);
     }
 
     public int numberOfPlayers() {
-       return players.size();
+        return players.size();
     }
 
     public void addKnight(Knight knight) {
@@ -44,13 +43,10 @@ public class ThroneRoom extends Room{
         if (enemies.size() > 0) {
             players.add(dwarf);
             return "I challenge thee to mortal battle";
-        }else {
+        } else {
             players.add(dwarf);
             return null;
         }
     }
 
-//    public void canAddBasiliskToRoomWhenPlayerAndEnemyPresent(Knight knight, Orc orc, Basilisk basilisk){
-//         players = 1, enemies = 1; + 1 mythical beast.shuffle();
-//
-//    }
+}

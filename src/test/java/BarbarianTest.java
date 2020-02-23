@@ -17,7 +17,7 @@ public class BarbarianTest {
 
     @Before
     public void before(){
-        barbarian = new Barbarian("Sigurd", 60, 30, 50);
+        barbarian = new Barbarian("Sigurd", 60, 30, 50, 20, 10);
         sword = new Sword(30);
         axe = new Axe (20);
         bow = new Bow(40);

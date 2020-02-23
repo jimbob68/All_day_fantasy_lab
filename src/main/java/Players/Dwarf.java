@@ -10,8 +10,8 @@ import java.util.Random;
 
 public class Dwarf extends Player {
     ArrayList<IWeaponable> weapons;
-    public Dwarf(String name, int healingPoints, int treasure, int purse) {
-        super(name, healingPoints, treasure, purse);
+    public Dwarf(String name, int healingPoints, int treasure, int purse, int AttackStrength, int DefenceStrength) {
+        super(name, healingPoints, treasure, purse, AttackStrength, DefenceStrength);
         this.weapons = new ArrayList<IWeaponable>();
     }
 
@@ -32,15 +32,15 @@ public class Dwarf extends Player {
     }
 
 //    public int attack();
-    public double attack() {
+//    public double attack() {
         //begin with weapon strength
 
         //begin with enemy strength
         //multiply weapon strength by random number, deduct output from enemy health
         //multiply enemy strength by random number, deduct output from player health
         //continue looping until someone is zero.
-        double randomNumber = Math.random();
-        return randomNumber; //* 100;
+//        double randomNumber = Math.random();
+//        return randomNumber; //* 100;
 
 
 //        public static int generateRandomInt(int upperRange){
@@ -53,4 +53,4 @@ public class Dwarf extends Player {
 //            return r.nextInt((max - min) + 1) + min;
 //        }
     }
-}
+
